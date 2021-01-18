@@ -119,21 +119,35 @@
             margin: 28px 0;
         }
         
-        table {
-            width: 100%;
+        .row1,
+        .row2 {
+            display: inline-block;
         }
         
-        .table-img {
-            height: 250px;
-            width: 90%;
-            opacity: 1;
-            transition: 1s;
+        .hide-div {
+            text-align: center;
+            margin: -404px 5px 0px;
+            padding: 150px 20px;
+            color: white;
+            display: none;
+            height: 115px;
+            width: 355px;
+            font-style: bold;
             background-color: black;
         }
         
+        .table-img {
+            height: 400px;
+            width: 400px;
+            opacity: 1;
+        }
+        
+        .table-img:hover+.hide-div {
+            display: block;
+        }
+        
         .table-img:hover {
-            opacity: 0.5;
-            padding: 20px;
+            opacity: 0.2;
         }
         
         .bgfoot {
