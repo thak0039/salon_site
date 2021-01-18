@@ -1,0 +1,165 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+        
+        .bgnav {
+            background-image: linear-gradient(to right, #f76fc7, #8573f0);
+        }
+        
+        .fleft {
+            float: left;
+        }
+        
+        .fright {
+            float: right;
+        }
+        
+        .textwhite {
+            color: white;
+        }
+        
+        .textcenter {
+            text-align: center;
+        }
+        
+        .cmpLogo {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 24px;
+            width: 40%;
+        }
+        
+        .menuclass {
+            width: 44%;
+        }
+        
+        ul {
+            list-style-type: none;
+            /* margin-left: 20rem; */
+        }
+        
+        .list-item {
+            padding: 22px 20px;
+            float: left;
+            text-decoration: none;
+        }
+        
+        .list-item:hover {
+            color: #961966;
+            border-bottom: 1px solid #961966;
+        }
+        
+        .row {
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .heder-img {
+            background-image: url("./img/slideshow_3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+        }
+        
+        .header-text {
+            text-align: left;
+            padding: 190px 0 0 140px;
+            width: 500px;
+            background-position: center;
+        }
+        
+        .header-text h1 {
+            font-size: 42px;
+        }
+        
+        .header-text h1,
+        p {
+            margin: 10px 0;
+        }
+        
+        .btn-header {
+            padding: 20px;
+            background-color: #6908e7;
+            text-align: center;
+            width: 160px;
+            border: none;
+            border-radius: 10px;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: 1s;
+        }
+        
+        .btn-header:hover {
+            background-image: linear-gradient(to right, #e747af, #5c44e6);
+            box-shadow: 4px 4px 15px black;
+        }
+        
+        .about-salon h2 {
+            font-size: 60px;
+        }
+        
+        .about-salon p {
+            font-size: 25px;
+            color: gray;
+        }
+        
+        .about-salon {
+            margin: 40px 0;
+        }
+        
+        .brand-hilight {
+            font-size: 20px;
+            margin: 28px 0;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        .table-img {
+            height: 250px;
+            width: 90%;
+            opacity: 1;
+            transition: 1s;
+            background-color: black;
+        }
+        
+        .table-img:hover {
+            opacity: 0.5;
+            padding: 20px;
+        }
+        
+        .bgfoot {
+            padding: 20px 0;
+            background-color: #1c1a1b;
+        }
+        
+        .foot1 {
+            margin-right: 20px;
+        }
+        
+        .foot1,
+        .foot2,
+        .foot3 {
+            width: 30%;
+        }
+        
+        .mainfoot {
+            display: inline-block;
+        }
+        
+        .secondfoot {
+            padding: 2rem;
+            background-color: black;
+        }
+        
+        .followby {
+            padding: 10px;
+        }
