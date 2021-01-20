@@ -1,6 +1,8 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
         }
         
         .container {
@@ -20,10 +22,6 @@
             float: right;
         }
         
-        .textwhite {
-            color: white;
-        }
-        
         .textcenter {
             text-align: center;
         }
@@ -32,11 +30,11 @@
             display: inline-block;
             margin-top: 20px;
             font-size: 24px;
-            width: 40%;
+            width: 30%;
         }
         
         .menuclass {
-            width: 44%;
+            width: 54%;
         }
         
         ul {
@@ -103,6 +101,7 @@
         
         .about-salon h2 {
             font-size: 60px;
+            color: #1c1a1b;
         }
         
         .about-salon p {
@@ -130,8 +129,8 @@
             padding: 150px 20px;
             color: white;
             display: none;
-            height: 115px;
-            width: 355px;
+            height: 95px;
+            width: 335px;
             font-style: bold;
             background-color: black;
         }
@@ -176,4 +175,8 @@
         
         .followby {
             padding: 10px;
+        }
+        
+        .fab {
+            font-size: 30px;
         }
